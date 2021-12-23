@@ -4,7 +4,6 @@ formRef.addEventListener('submit', event => {
     event.preventDefault();
 
     const { email, password } = formRef.elements;
-
     if (email.value === '' || password.value === '') {
         alert('Заполните все поля!');
         return;
